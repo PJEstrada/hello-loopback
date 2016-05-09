@@ -10,7 +10,8 @@ module.exports = function(app) {
   router.post('/hello',function(req,res){
     console.log(req);
     var name = req.body.name;
-    res.send('Hello '+name+'!');
+    var rs = {response:'Hello '+name+'!'}
+    res.send(rs);
   });
   app.use(router);
 
