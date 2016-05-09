@@ -1,0 +1,15 @@
+{
+  "db": {
+    "name": "db",
+    "connector": "memory"
+  },
+  "postgres": {
+    "host": "127.0.0.1",
+    "port": 5432,
+    "database": "HelloWorld",
+    "password": "root",
+    "name": "postgres",
+    "user": "postgres",
+    "connector": "postgresql"
+  }
+}
